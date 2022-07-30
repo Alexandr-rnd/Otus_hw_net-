@@ -41,5 +41,4 @@ with open("request.txt", "r") as txt:
               f"text/html\n\n<p>Request Method:{cl_request[0].split('/')[0]}</p>"
               f"<p>Request Source:{cl_request[1][7:-1]}</p>"
               f"<p>Request Status:{status_code}</p>{HtmlString}".encode("utf-8"))
-
 my_socket.close()
